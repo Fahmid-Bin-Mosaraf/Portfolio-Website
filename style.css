@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.header-container{
+    background-color: #1E1E1E;
+
+}
+/* nav section start */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.logo-container{
+    font-size: 17px;
+    align-items: center;
+    color: #FD6F00;
+    text-transform: uppercase;
+    display: 45%;
+    margin: 0 auto;
+}
+.list-item-section{
+    display: 45%;
+    margin: 0 auto;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 20px;
+}
+.list-items a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-button{
+    padding: 8px 12px;
+    background-color: #FD6F00;
+}
+/* nav section end */
+
+/* banner section start */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+.about{
+    color: white;
+}
+.intro h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.intro p{
+    padding: 20px 0px;
+    color: #606060;
+}
+.area{
+    color: #FD6F00;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-transform: uppercase;
+}
+/* banner section end */
+
+/* experience section start */
+.experinece-container{
+    background-color: #31262B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+.bio-section{
+    width: 50%;
+    height: 150px;
+}
+.experinece{
+    font-size: 13px;
+    padding: 15px 0px;
+}
+.bio h1{
+    font-size: 40px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    gap: 170px;
+    padding-top: 20px;
+}
+.year{
+    font-size: 12px;
+}
+.company-name{
+    font-size: 8px;
+}
+.position{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+/* experience section end */
+
+.main-section{
+    background-color:#1E1E1E;
+}
+
+/* awards section start */
+.awards-container{
+    justify-content: center;
+}
+.headline{
+    color: white;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.awards-section{
+    color: white;
+    background-color: black;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px 50px;
+}
+.awards{
+    display: flex;
+    justify-content: space-between;
+}
+.awards-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 100px;
+    color: #606060;
+}
+.awards h1{
+    font-size: 22px;
+}
+.awards h2{
+    font-size: 18px;
+}
+/* awards section end */
+
+/* portfolio section start */
+.portfolio-container{
+    margin: 100px 0px;
+}
+.portfolio{
+    color: white;
+    text-align: center;
+}
+.portfolio h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+.portfolio p{
+    padding-bottom: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.button a{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.research-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 190px;
+    gap: 30px;
+}
+.research-section{
+    color: white;
+}
+.research-section h3{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.research-section h1{
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+.research-section p{
+    color: #606060;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+/* portfolio section end */
+
+/* contact section start */
+.contact-section{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.contact{
+    color: white;
+    text-align: center;
+}
+.contact h1{
+    padding-top: 25px;
+    font-size: 35px;
+}
+.form-section{
+    width: 1000px;
+    height: 500px;
+    background-color: #34261B;
+    margin: auto;
+    
+}
+.form-container{
+    padding: 40px 150px;
+}
+.pro h1{
+    font-size: 38px;
+    color: white;
+}
+.form-1{
+    display: flex;
+    gap: 40px;
+    margin: 20px 0px;
+    justify-content: space-between;
+
+}
+.form-1 input{
+    width: 50%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 2px solid #D6D4D1;
+    outline: none;
+    background: transparent;
+    padding: 20px 0px;
+}
+.form-2 input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 2px solid #D6D4D1;
+    outline: none;
+    background: transparent;
+    padding: 20px 0px;
+}
+.submit-button{
+    margin: 25px 0px;
+}
+.submit-button a{
+    padding: 8px 12px;
+    background-color: #FD6F00;
+    color: white;
+    text-decoration: none;
+}
+/* contact section end */
+
+/* footer section start */
+.footer-section{
+    background-color: #000000;
+    text-align: center;
+}
+.logo{
+    color: #FD6F00;
+    font-size: 35px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.logo-item{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.logo-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.social-icon a i{
+    font-size: 27px;
+}
+footer, h4{
+    color: white;
+    background-color: #121212;
+    text-align: center;
+    height: 80px;
+    padding: 15px 0px;
+    font-size: 17px;
+}
+footer, span{
+    color: #FD6F00;
+}
+/* footer section end */
